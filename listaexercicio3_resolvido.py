@@ -29,7 +29,7 @@ st.header("Lista de Exercícios 3")
 
 import pandas as pd
 
-arquivo = "projetos.csv"
+arquivo = "https://raw.githubusercontent.com/manutech2011/lista_exercicios3/refs/heads/main/projetos.csv"
 df = pd.read_csv(arquivo, sep=';')
 st.dataframe(df.head(len(df)))
 
