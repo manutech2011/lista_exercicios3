@@ -98,6 +98,7 @@ fig, ax = plt.subplots()
 df.plot(kind = 'scatter', x = 'Projeto1', y = 'Projeto2', color='darkgreen', marker='*', ax=ax)
 st.pyplot(fig)
 
+with st.expender('Mostrar texto')
 """6) Crie um gráfico de linha que mostre a evolução dos valores dos projetos ao longo do tempo. (Peso: 2,0)
 
 Dicas:
