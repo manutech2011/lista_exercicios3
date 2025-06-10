@@ -122,9 +122,9 @@ plt.figure(figsize=(10,6))
 for projeto in projetos:
     ax.plot(df["Data"], df[projeto], marker="o", label=projeto, ax=ax)
 
-ax.title("Evolução dos Fluxos de Caixa dos Projetos")
-ax.xlabel("Tempo (Ano-Mês)")
-ax.ylabel("Valor (R$)")
+ax.set_title("Evolução dos Fluxos de Caixa dos Projetos")
+ax.set_xlabel("Tempo (Ano-Mês)")
+ax.set_ylabel("Valor (R$)")
 ax.legend(title="Projetos")
 ax.grid(True)
 fig.tight_layout()
